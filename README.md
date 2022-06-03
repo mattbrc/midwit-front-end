@@ -1,2 +1,5 @@
-# midwit-front-end
-Front End for midwit IQ NFT minting service
+Starter code for quiz-app beginner react project
+
+- clone repo
+- npm install
+- npm start

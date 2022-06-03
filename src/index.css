@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  font-family: "Verdana", cursive, sans-serif;
+  color: #ffffff;
+}
+
+body {
+  background-image: url('https://typedream-assets.sfo3.digitaloceanspaces.com/illustrations/gradients/hue-2.gif');
+  background-size: cover;
+  height: 100vh;
+  padding:0;
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+img {
+  display: inline-block;
+  margin: 0px 10px; /* Change this to fit all images */
+}
+
+.quiz-app {
+  background-color: #303030;
+  width: 450px;
+  min-height: 200px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mumbai-text {
+  text-align: center;
+}
+
+.score-section {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+
+.score-text {
+  font-size: 15px;
+}
+
+/* QUESTION/TIMER/LEFT SECTION */
+.question-section {
+  width: 100%;
+  position: relative;
+}
+
+.question-count {
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  margin-bottom: 12px;
+}
+
+.timer-text {
+  background: rgb(230, 153, 12);
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 5px solid rgb(255, 189, 67);
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* ANSWERS/RIGHT SECTION */
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #6900d1;
+  border-radius: 15px;
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 0px;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #2f922f;
+}
+
+.incorrect {
+  background-color: #ff3333;
+}
+
+button:hover {
+  background-color: #757475;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 40px;
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
+
+.header-image {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 35px;
+}
+
+.footer-container {
+  font-family: 'Inter', sans-serif;
+  padding-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.polygon-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.logo{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.right{
+  display: flex;
+  background: black;
+  border-radius: 16px;
+  padding: 12px 20px;
+  height: 99%;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.mint-button {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #303030;
+  transition: background-color 0.25s;
+  font-size: 15px;
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin: 20px 10px;
+  border-radius: 20px;
+  padding: 0px 2rem;
+}
+
+.opensea-button {
+  margin: 0;
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #303030;
+  transition: background-color 0.25s;
+  font-size: 18px;
+  background-size: 200% 200%;
+  margin: 20px 10px;
+  border-radius: 20px;
+  padding: 0px 2rem;
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+.connect-wallet {
+  margin: 0;
+  position: absolute;
+  left: 49%;
+}
+
+.button-container {
+  height: 200px;
+  position: relative;
+}
+
+.logo{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
