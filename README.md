@@ -6,7 +6,7 @@ Live Deploy: [MidWit App](https://midwit-front-end.vercel.app/)
 
 Your base score is calculated out of 20 questions. The calculation for your IQ is not accurate and obviously not your true IQ score. A traditional IQ test uses thousands and thousands of other test takers of the exact same test to get a point of reference for average, or an IQ of 100 shown on the bell curve below.
 
-![IQ Bell Curve](/src/assets/iq_curve.jpeg)
+![IQ Bell Curve](src/assets/iq_curve.jpeg)
 
 ## Running the Project
 
